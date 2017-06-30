@@ -10,7 +10,7 @@ var map = new mapboxgl.Map({
     zoom: 5.5
 });
 
-$.getJSON("http://ebird.org/ws1.1/data/obs/region/recent?r=CO&fmt=json",{},function(respuesta)
+$.getJSON("https://ebird.org/ws1.1/data/obs/region/recent?r=CO&fmt=json",{},function(respuesta)
 	   {
 	var estructura=[];	
 		
